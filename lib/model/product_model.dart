@@ -22,7 +22,7 @@ class ProductModel {
       image: jsonData['image'],
       price: jsonData['price'],
       title: jsonData['title'],
-      rating: RatingModel.fromJson(jsonData['rating']),
+      rating: RatingModel.fromJson(jsonData['rating'])
     );
   }
 }
